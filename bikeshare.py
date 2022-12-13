@@ -8,7 +8,7 @@ CITY_DATA = { 'chicago': 'chicago.csv',
 
 
     #The user will enter the data
-    
+
 def get_filters():
     """
     Asks user to specify a city, month, and day to analyze.
@@ -180,7 +180,7 @@ def user_stats(df):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
-#This is the main function that will continue to loop till the user exit
+#This loop will present data to the user
 def main():
     while True:
         city, month, day = get_filters()
