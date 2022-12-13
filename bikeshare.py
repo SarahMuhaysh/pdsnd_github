@@ -180,7 +180,7 @@ def user_stats(df):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
-#This is the main function that will continue to loop till the user exit
+#This is the main function that will continue to loop till the user exit the loop
 def main():
     while True:
         city, month, day = get_filters()
